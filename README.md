@@ -6,8 +6,8 @@ Finding it difficult to think of your next read or movie? Have a book or movie i
 
 # User Story
 
-AS A reader and movie watcher
-I WANT to look up book and movie recommendations and compare the two mediums
+AS A reader and movie watcher   
+I WANT to look up book and movie recommendations and compare the two mediums  
 SO THAT I can find information about authors/directors, decide if I am more interested in watching the movie or reading the book, and be directed to links to purchase the book or watch the trailer of the movie that interests me.
 
 # Contributors
