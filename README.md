@@ -26,14 +26,14 @@ SO THAT I can find information about authors/directors, decide if I am more inte
 
 # Features of the Application:
 
-GIVEN a media search dashboard with a form input
-WHEN I input a title into the search box
+GIVEN a media search dashboard with a form input  
+WHEN I input a title into the search box  
 THEN I am presented with a selection of information for books and movies.
 
-WHEN I scroll through the selection of books displayed
+WHEN I scroll through the selection of books displayed  
 THEN I am presented with the specific book title, the author, the synopsis, publication date, average user rating, page count, and access to purchase the book through Google Books.
 
-WHEN I scroll through the selection of movies displayed
+WHEN I scroll through the selection of movies displayed  
 THEN I am presented with the specific movie title, the director, the synopsis, IMDb rating, the parental rating, date of release, and access to watch the trailer through IMDb.
 
 # Preview GIF of Read It or Watch It? App
