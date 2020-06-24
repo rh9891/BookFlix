@@ -1,6 +1,7 @@
 // Variable for API Key.
 var googleKey = "AIzaSyCgSuPSLRf6S38F_qQ6Yssx2NdKM2mdtS0";
 var omdbKey = "da090e9b";
+
 // Function for the search button. User inputs a search term into the input box that is then transferred to a variable. 
 $("#searchBtn").on("click", function(event){
     event.preventDefault();
@@ -19,6 +20,7 @@ $("#searchBtn").on("click", function(event){
     // Empties the divs, so that when the user inputs a new search, they can immediately identify their most recent search results.
     bookDiv.empty();
     movieDiv.empty();
+    
     // Send an AJAX call for the assembled URL to get the book information.
     $.ajax({
     url:googleUrl,
@@ -69,9 +71,6 @@ $("#searchBtn").on("click", function(event){
         cardPageCount.html(pageCount);
         cardPublishedDate.html(publishedDate);
         cardAverageRating.html(averageRating);
-        
-    
-        
        
         resultsCard.attr("class", "card");
         
@@ -99,7 +98,6 @@ $("#searchBtn").on("click", function(event){
         url: searchURL,
         method: "GET"
     }).then(function(movieGet) {
-        // console.log(movieGet);
 
       for (i=0; i<movieGet.Search.length; i++) {
     
@@ -108,7 +106,7 @@ $("#searchBtn").on("click", function(event){
         // URL Base for API.
         var idURL = "https://www.omdbapi.com/?i=" + searchIMDBid + "&apiKey=" + omdbKey;
         
-        // Send an AJAX call for the assembled URL to get information 
+        // Send an AJAX call for the assembled URL to get information about the movie details.
         $.ajax({ 
           url:idURL,
           method: "GET"

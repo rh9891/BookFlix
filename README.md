@@ -20,9 +20,9 @@ SO THAT I can find information about authors/directors, decide if I am more inte
 
 # Links
 
-1. [Link to Deployed Application](https://erasersleeve.github.io/Multimedia-Search-Engine/)
+1. [Link to Deployed Application](https://rh9891.github.io/MultimediaSearchEngine)
 
-2. [Link to Github Repository](https://github.com/erasersleeve/Multimedia-Search-Engine/)
+2. [Link to Github Repository](https://github.com/rh9891/MultimediaSearchEngine)
 
 # Features of the Application:
 
