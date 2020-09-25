@@ -1,16 +1,17 @@
-# Read It or Watch It? App
+# Read It or Watch It?
 
-# Description
+## Description
 
-Finding it difficult to think of your next read or movie? Have a book or movie in mind, but don't know if you should read it or maybe watch it? We have created a web application where the user can obtain detailed information for books and movies (such as the synopsis, director/author, parental rating, and book cover and movie poster images) just by entering a search term. On the web application, the user can also be directed to Google Books to purchase the book title related to their inquiry - or watch a trailer through IMDb.
+Finding it difficult to think of your next read or movie? Have a book or movie in mind, but don't know if you should read it or maybe watch it? We have created a web application where the user can obtain detailed information for books and movies (such as the synopsis, director/author, parental rating, book cover and movie poster images) just by entering a search term. On the web application, the user can also be directed to Google Books to purchase the book title related to their inquiry or watch a trailer through IMDb.
 
-# User Story
-
-AS A reader and movie watcher   
+## User Story
+~~~
+AS A reader and movie watcher  
 I WANT to look up book and movie recommendations and compare the two mediums  
-SO THAT I can find information about authors/directors, decide if I am more interested in watching the movie or reading the book, and be directed to links to purchase the book or watch the trailer of the movie that interests me.
+SO THAT I can find information about authors/directors, decide if I am more interested in watching the movie or reading the book, and be directed to links to purchase the book or watch the trailer of the movie that interests me.  
+~~~
 
-# Contributors
+## Contributors
 
 1. [Romie Hecdivert](https://github.com/rh9891)
 
@@ -18,14 +19,14 @@ SO THAT I can find information about authors/directors, decide if I am more inte
 
 3. [Tim Winters](https://github.com/erasersleeve)
 
-# Links
+## Links
 
-1. [Deployed Application](https://rh9891.github.io/MultimediaSearchEngine)
+1. [Deployed Application](https://rh9891.github.io/ReadItOrWatchIt)
 
-2. [Github Repository](https://github.com/rh9891/MultimediaSearchEngine)
+2. [Github Repository](https://github.com/rh9891/ReadItOrWatchIt)
 
-# Features of the Application:
-
+## Features of the Application:
+~~~
 GIVEN a media search dashboard with a form input  
 WHEN I input a title into the search box  
 THEN I am presented with a selection of information for books and movies.
@@ -35,8 +36,9 @@ THEN I am presented with the specific book title, the author, the synopsis, publ
 
 WHEN I scroll through the selection of movies displayed  
 THEN I am presented with the specific movie title, the director, the synopsis, IMDb rating, the parental rating, date of release, and access to watch the trailer through IMDb.
+~~~
 
-# Preview GIF of Read It or Watch It? App
+## Preview of Read It or Watch It?
 
 The following animation demonstrates the application functionality:
 
