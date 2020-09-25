@@ -42,4 +42,4 @@ THEN I am presented with the specific movie title, the director, the synopsis, I
 
 The following animation demonstrates the application functionality:
 
-![Read It or Watch It! App](https://github.com/erasersleeve/Multimedia-Search-Engine/blob/master/assets/Read%20It%20or%20Watch%20It.gif)
+![Read It or Watch It! App](https://github.com/rh9891/ReadItOrWatchIt/blob/master/assets/Read%20It%20or%20Watch%20It.gif)
