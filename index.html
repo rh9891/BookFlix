@@ -1,88 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read it or Watch it?</title>
-
-    <!-- Import Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Berkshire+Swash&family=Limelight&display=swap" rel="stylesheet">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookflix</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script
+      src="https://kit.fontawesome.com/f663e85456.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Raleway&family=Berkshire+Swash&family=Limelight&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
 
-    <!-- Link to CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-</head>
-
-<body>
-
-    <!-- Title of page  -->
+  <body>
     <div class="header">
-        <h1 class="title center-align yellow-text text-darken-3 " id="Title">Read It or Watch It?</h1>
+      <h1 class="title" id="title">BookFlix</h1>
+      <h5 class="description-title">Discover Your Next Story</h5>
+      <div class="description-content">
+        <p>Search for titles. Explore details. Find new favorites.</p>
+      </div>
+      <form>
+        <div class="search-bar">
+          <input type="text" id="media-search" placeholder="Enter title..." />
+          <button type="button" class="btn-circle search" id="searchBtn"><i class="fas fa-magnifying-glass"></i></i>
+            <button type="button" class="btn-circle reset" id="resetBtn"><i class="fas fa-refresh"></i></i>
+          </button>
+        </div>
+      </form>
     </div>
 
-    <section class="col s12 center-align">
-
-        <div class="row">
-
-            <div class="col s0 m2 l3"></div>
-            <form>
-                <div class="input-field col s10 m8 l6">
-
-                    <h5 class="bold-text" id="question">What book or movie are you interested in...</h5>
-
-
-                    <form action="">
-                        
-                        <div class="input-field">
-                            
-                            <a href="#" class="btn-floating yellow darken-3 prefix waves-effect waves-light" id="searchBtn">
-                                
-                                <i class="material-icons">search</i>
-                            </a>
-                            <input type="text" id="mediaSearch">
-                            <label for="mediaSearch">Enter Title Here</label>
-                            
-                        </div>
-                    </form>
-
-                </div>
-            </form>
-
-        </div>
-
-    </section>
-
-    <main>
-        <!-- Media Content -->
-        <section class="container">
-            <div class="row">
-
-                <!-- Books Info-->
-                <div class="col s12 m6 l6 border-right" id="bookCol">
-                    <h3 class="center-align" id="theBook">The Book</h3>
-                    <div id="bookResults"></div>
-                </div>
-
-                <!-- Movie Info -->
-                <div class="col s12 m6 l6 border-left" id="movieCol">
-                    <h3 class="center-align" id="theMovie">The Movie</h3>
-                    <div id="movieResults"></div>
-                </div>
-
-            </div>
-        </section>
-    </main> 
-    <script src="assets/consolidation.js"></script>
-</body>
-
+    <div class="row">
+      <div class="column">
+        <h2 class="center-align pages">Pages</h2>
+        <div id="book-results"></div>
+      </div>
+      <div class="column">
+        <h2 class="center-align previews">Previews</h2>
+        <div id="movie-results"></div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
 </html>
