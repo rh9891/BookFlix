@@ -28,7 +28,7 @@ How It Works:
 
 Whether you're a bookworm or a film buff, BookFlix offers a seamless way to discover and enjoy stories in both formats. Let us guide you on your journey of exploration and help you find the perfect tale to immerse yourself in!
 
-## Original Contributors
+## Contributors
 
 1. [Romie Hecdivert](https://github.com/rh9891)
 
@@ -65,13 +65,13 @@ THEN the search input is cleared, and the displayed book and movie results are r
 
 The following animation demonstrates the application functionality:
 
-![BookFlix App]()
+![BookFlix App](assets/images/bookflixPreview.gif)
 
 ## Links
 
-1. [Deployed Application]()
+1. [Deployed Application](https://bookflix-explore.netlify.app)
 
-2. [Github Repository]()
+2. [Github Repository](https://github.com/rh9891/BookFlix)
 
 ## Built Using
 

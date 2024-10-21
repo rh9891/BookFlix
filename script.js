@@ -9,7 +9,6 @@ $("#searchBtn").on("click", function (event) {
   var bookDiv = $("#book-results");
 
   const searchURL = `https://www.omdbapi.com/?s=${searchTerm}&apiKey=${OMDB_API_KEY}`;
-  console.log(searchURL);
   var movieDiv = $("#movie-results");
 
   // Empties the divs, so that when the user inputs a new search, they can immediately identify their most recent search results.
