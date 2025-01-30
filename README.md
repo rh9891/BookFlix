@@ -65,7 +65,7 @@ THEN the search input is cleared, and the displayed book and movie results are r
 
 The following animation demonstrates the application functionality:
 
-![BookFlix App](https://github.com/user-attachments/assets/67f0f5b4-2a53-488b-8584-81b7984bb556)
+![BookFlix App](https://github.com/user-attachments/assets/a4f930ab-348a-481d-a096-1a46ce389098)
 
 ## Links
 
